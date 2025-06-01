@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spectral Project | FiveM HWID Spoofer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <img src="https://i.imgur.com/fZBekTM.png" alt="Spectral Logo" class="logo">
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#features">Features</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="rgb-text">SPECTRAL PROJECT</h1>
+            <p>The most advanced FiveM HWID Spoofer with complete system cleaning</p>
+            <div>
+                <a href="#contact" class="btn">Get Started</a>
+                <a href="https://www.youtube.com/watch?v=oYqi3AloqyY" target="_blank" class="btn">Spoofer clip</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Our Spoofer</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Spectral Project is the ultimate solution for FiveM players who need to bypass hardware bans and maintain their gaming experience. Our advanced spoofer offers:</p>
+                    
+                    <ul>
+                        <li><strong>Complete HWID Spoofing</strong> - Changes all hardware identifiers including disk, motherboard, and GPU serials</li>
+                        <li><strong>Deep System Cleaning</strong> - Removes all FiveM and CitizenFX traces from your system</li>
+                        <li><strong>DigitalElements Removal</strong> - Cleans all DigitalElements folders that might contain tracking data</li>
+                        <li><strong>Registry Cleaning</strong> - Scans and removes all FiveM-related registry entries</li>
+                        <li><strong>MAC Address Spoofing</strong> - Randomizes your network adapter MAC address</li>
+                        <li><strong>Secure Operation</strong> - Works without leaving traces or compromising your system</li>
+                        <li><strong>User-Friendly Interface</strong> - Simple GUI with one-click operations</li>
+                        <li><strong>License System</strong> - Hardware-locked licenses for security</li>
+                        <li><strong>Regular Updates</strong> - We constantly update to bypass new detection methods</li>
+                    </ul>
+                    
+                    <p>Our tool is used by thousands of players worldwide and has proven its effectiveness against the most advanced anti-cheat systems.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://i.imgur.com/ZNDVFyc.png" alt="Spectral Spoofer Interface">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Features Section -->
+    <section id="features">
+        <div class="container">
+            <h2>Key Features</h2>
+            <div class="features">
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Full HWID Spoof</h3>
+                    <p>Changes all hardware identifiers including disk serials, motherboard UUID, and GPU information to bypass hardware bans.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🧹</div>
+                    <h3>Deep Cleaning</h3>
+                    <p>Removes all FiveM traces from AppData, Registry, and temporary files for a completely fresh start.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Fast Execution</h3>
+                    <p>Optimized processes that complete in seconds without slowing down your system performance.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>Undetectable</h3>
+                    <p>Uses advanced methods to avoid detection by anti-cheat systems and server-side checks.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Statistics Reset</h3>
+                    <p>Clears all player statistics and identifiers stored locally on your system.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔄</div>
+                    <h3>Auto-Updates</h3>
+                    <p>Regular updates to ensure compatibility with the latest FiveM versions and anti-cheat measures.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact & Payments</h2>
+            <p class="contact-text">For support or purchase inquiries, contact us on Discord: <strong>Sebastianuul.</strong></p>
+            
+            <div class="payment-methods">
+                <div class="payment-card">
+                    <div class="payment-icon">💳</div>
+                    <h3>PayPal</h3>
+                    <p>Send payment to:</p>
+                    <p><strong>spectralmodz5@gmail.com</strong></p>
+                </div>
+                <div class="payment-card">
+                    <div class="payment-icon">🎫</div>
+                    <h3>Paysafecard</h3>
+                    <p>Open a ticket on our Discord server for Paysafecard payments:</p>
+                    <a href="https://discord.gg/EV3DeQD6tV" target="_blank" class="btn payment-btn">Join Discord</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="https://discord.gg/EV3DeQD6tV" target="_blank">💬</a>
+            <a href="https://youtube.com" target="_blank">▶️</a>
+            <a href="mailto:spectralmodz5@gmail.com">✉️</a>
+        </div>
+        <p>© 2024 Spectral Project. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
